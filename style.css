@@ -1,0 +1,75 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .game_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #115e59;
+    
+  }
+    h1{
+      color:white;
+      font-size: 4rem;
+      text-align: center;
+    }
+    .buttonBox{
+      width: 478px;
+      height: 478px;
+      border: white;
+      background-color:#115e59;
+      display: flex;
+      flex-wrap: wrap;
+      align-self: center;
+      margin-left: 34%;
+      border-radius: 10px;
+
+    }
+      .btn{
+        height: 150px;
+        width: 150px;
+        border-radius: 10px;
+        margin: 4px;
+        font-size: 50px;
+        background-color: rgb(201, 181, 155);
+        color: black;
+      }
+.msg_container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hide{
+  display: none;
+}
+  #newGameBtn{
+    height: 40px;
+    width: 150px;
+    align-self: center;
+    border-radius: 7px;
+    background-color: darkorange;
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .winning_msg{
+    font-size: 2.5rem;
+    align-self: center;
+    color: indianred;
+    
+  }
+.reset_btn{
+  height: 40px;
+    width: 150px;
+    align-self: center;
+    border-radius: 7px;
+    background-color: darkorange;
+    margin-top: 40px;
+    margin-left: 46%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
